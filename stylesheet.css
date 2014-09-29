@@ -9,6 +9,7 @@ html{
   width: 100%;
   font-size: 25px;
   padding-bottom: 10px;
+  padding-top: 5px;
   border-bottom: 2px groove black;
 }
 
@@ -16,17 +17,25 @@ html{
   font-family: cursive;
   font-size: 100px;
   margin: 0px;
+  line-height: 125px;
 }
 
 .title ul {
+  position: relative;
+  top: -2px;
   display: block;
-  border: 0px solid black;
   padding-left: 0px;
-  margin-bottom: 8px ;
+  padding-top: 0px;
+  margin-bottom: 0px ;
   margin-top: 0px;
+  height:12px;
 }
 
 .title ul li {
+  position: relative;
+  top:10px;
+  padding: 0px 5px 0px 5px;
+  margin-top: 0px;
   display: inline-block;
   text-align: center;
 }
@@ -35,10 +44,19 @@ html{
   padding: 5px 12px 5px 12px;
   border: 2px solid black;
   border-radius: 10px;
+  background-color: #E6E6E6;
 }
 
 a {
   text-decoration:none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
 }
 
 a:hover {
@@ -49,13 +67,14 @@ a:hover {
   width: 100%;
   display: inline-block;
   font-size: 16px;
+  padding-bottom: 15px;
 }
 
 .left-col {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
-  width: 200px;
+  width: 250px;
 }
 
 .right-col {
@@ -64,7 +83,7 @@ a:hover {
   float: right;
   padding-left: 10px;
   padding-right: 10px;
-  width: 200px;
+  width: 250px;
 }
 
 .mid-col {
@@ -72,8 +91,10 @@ a:hover {
   border-right: 1px groove black;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
+  min-height: 60%;
   position: relative;
+  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -86,8 +107,69 @@ h3 {
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 75px;
+  height: 50px;
   font-size: 10px;
   text-align: center;
   border-top: 1px groove black;
+}
+
+.mid-col p {
+  text-align: top;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+#profile-pic {
+  float: left;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  zoom: 17%;
+}
+
+#chiskyline {
+  display:block;
+  float: left;
+  zoom:55%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#houskyline {
+  display:block;
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  zoom:6%;
+}
+
+#puimg {
+  float: right;
+  zoom: 35%;
+}
+
+.mid-col div p{
+  display: inline-block;
+}
+
+.left-col p;
+.right-col p {
+  font-size: 14px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.social-icons {
+  position: absolute;
+  right:70px;
+  top: -20px;
+}
+
+#icon {
+  display: inline-block;
+  border: 2px solid black;
+  top:12px;
+  border-radius: 10px;
+  width: 38px;
+  height: 38px;
 }
