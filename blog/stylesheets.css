@@ -1,68 +1,93 @@
 html{
-    background-color: gray;
-
     font-family: Georgia;
-}
-/*
-.header {
-  display: inline;
-  position: relative;
-  width: 80%;
-  border: 1px solid black;
-}*/
-
-#profile {
-  position: absolute;
-  float: right;
-  right: 0px;
-  display: inline;
-  padding-right: 100px;
-  padding-top: 50px;
-  /*border: 1px solid black;*/
+    background-color: #E6E6E6;
 }
 
-.upper-header {
-  position: relative;
-  float: left;
-  /* border: 1px solid black; */
-  border-bottom-style: dashed;
+.title {
+  background-color: #CCCCCC;
+  text-align: center;
   width: 100%;
-  /* height: 300px; */
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px groove black;
+}
+
+.title p {
+  font-family: cursive;
+  font-size: 100px;
+  margin: 0px;
+}
+
+.title ul {
   display: block;
-  font-size: 35px;
-
+  border: 0px solid black;
+  padding-left: 0px;
+  margin-bottom: 8px ;
+  margin-top: 0px;
 }
 
-.header-link {
-  padding: 0px 0px 0px 20px;
-  text-decoration: none;
+.title ul li {
   display: inline-block;
+  text-align: center;
 }
 
-img {
-  zoom: 15%;
-  float: right;
-
+.title a {
+  padding: 5px 12px 5px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-.snet {
-  text-decoration: none;
-  text-align: left;
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  background-color:gold;
+}
+
+.main-body {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.left-col {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
 }
 
 .right-col {
-  float: right;
-  padding-right: 50px;
-
-  padding-top: 35px;
   text-align: left;
-  display: inline-block;
+  position: relative;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
 }
 
-#main {
-  display: block;
+.mid-col {
+  border-left: 1px groove black;
+  border-right: 1px groove black;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  float: left;
-  padding-left: 200px;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
+
+h3 {
+  font-size: 17px;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 75px;
+  font-size: 10px;
+  text-align: center;
+  border-top: 1px groove black;
 }
