@@ -41,7 +41,7 @@ html{
 }
 
 a.title-text-link:hover {
-background-color: gold;
+  background-color: #FDD017;
 }
 
 a {
@@ -60,10 +60,15 @@ a:link {
   width: 100%;
   display: inline-block;
   font-size: 16px;
-  padding-bottom: 15px;
+}
+
+.mid-col a:hover {
+  background-color: #FDD017;
+  /*color: #FDD017;*/
 }
 
 .left-col {
+  margin-top: 15px;
   float: left;
   padding-left: 10px;
   padding-right: 10px;
@@ -71,6 +76,7 @@ a:link {
 }
 
 .right-col {
+  margin-top: 15px;
   text-align: left;
   position: relative;
   float: right;
@@ -80,14 +86,14 @@ a:link {
 }
 
 .mid-col {
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-left: 1px groove black;
   border-right: 1px groove black;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  min-height: 60%;
+  max-width: 65%;
   position: relative;
-  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -98,6 +104,7 @@ h3 {
 }
 
 .footer {
+  background-color: #CCCCCC;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -107,7 +114,7 @@ h3 {
 .mid-col p {
   text-align: top;
   font-size: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 #profile-pic {
@@ -150,8 +157,8 @@ h3 {
   padding-top: 5px;
 }
 
-
 #icon {
+  border:1px solid black;
   border-radius: 10px;
   height: 38px;
   margin-right:10px;
