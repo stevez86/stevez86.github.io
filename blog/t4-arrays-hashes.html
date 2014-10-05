@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheet.css"/>
+    <title>
+        Z Blog
+    </title>
+  </head>
+
+  <body>
+    <header>
+        <div class="header">
+            <p id="title">Z Home</p>
+            <ul class="home-row-links">
+                <li><a class="title-text-link" href="../index.html">About me</a></li>
+                <li><a class="title-text-link" href="../projects/projects.html">Projects</a></li>
+                <li><a class="title-text-link" href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main-body">
+
+        <div class="left-col">
+
+        </div>
+
+        <div class="right-col">
+
+        </div>
+
+        <div class="mid-col">
+            <h2>Hashes vs Arrays</h2>
+            <p><i>Sunday, October 5th, 2014</i></p>
+            <p>This week I've been asked to discuss the differences between arrays and bases in ruby. Both arrays and hashes are very similar in that they both are used to store a "collection" or "series" of data. They can both grow and shrink in size and can hold any type of data, integers, floats, strings, etc. The difference between an array and hash is how the data is accessed. For example, arrays use a linear integer to index the data for storing or recalling a piece of data, while hashes use a "hash.""  A hash can be a string, number or whatever. The differences are best explained with examples, the following is an example for an array of pets.</p>
+
+            <p>Pets = ["cat", "dog", "fish"]</p>
+
+            <p>In order to recall a specific piece of data from pets one would call Pets[n] where n represents a number, in this case, ranging from 0 to 2. Pets[0] would return "cat." Now for hashes, they are defined differently and an example with pet's could be used below where the pet of an owner could accessed.</p>
+
+            <p>Pets = {<br>
+                'John'  => "cat",<br>
+                'Jack'  => "dog",<br>
+                'Jane'  => "fish",<br>
+            }</p>
+
+            <p>If you wanted to access an owner's pet one could utilize the hash, in this case, 'John' used with the hash, Pets['John'] to recall the data, "cat." Hashes are better used when the data being stored is not linear or ordered. This is my explanation of hashes and arrays. Thanks for reading.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <a class="social-icons" href="https://twitter.com/stevewzimmerman"><img id="icon" src="../imgs/twitter-icon.png"/></a>
+        <a class="social-icons" href="https://www.linkedin.com/in/stevewzimmerman"><img id="icon" src="../imgs/linkedin-icon.png"/></a>
+        <a class="social-icons" href="https://www.facebook.com/szman86"><img id="icon" src="../imgs/facebook-icon.png"/></a>
+    </div>
+
+  </body>
+
+</html>
