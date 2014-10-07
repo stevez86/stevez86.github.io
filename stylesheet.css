@@ -114,36 +114,35 @@ h3 {
 .mid-col p {
   text-align: top;
   font-size: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
+}
+
+.mid-col img {
+  display:block;
+  padding-bottom: 20px;
 }
 
 #profile-pic {
   float: left;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  zoom: 17%;
+  padding-right: 10px;
+  height: 150px;
 }
 
 #chiskyline {
-  display:block;
   float: left;
-  zoom:55%;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-right: 10px;
+  height: 120px;
 }
 
 #houskyline {
-  display:block;
   float: right;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-  zoom:6%;
+  padding-left: 10px;
+  height: 150px;
 }
 
 #puimg {
   float: right;
-  zoom: 35%;
+  height: 150px;
 }
 
 .mid-col div p{
@@ -163,4 +162,32 @@ h3 {
   height: 38px;
   margin-right:10px;
   margin-left:10px;
+}
+
+#twitter-feed {
+
+}
+
+#twitter_update_list a[style="font-size: 85%;"] {
+font-size: 1em !important;
+}
+
+.twitter-list {
+list-style:none; /* This removes the bullet in the list. */
+margin:0 0 0 0; /* This moves the indent over in the list. */
+padding: 0 0 0 0; /* This moves the indent over in the list. */
+display: block; /* This moves the indent over in the list. */
+}
+
+.twitter-list li {
+border-bottom: 2px dashed #009999; /* This is the color of the divider. */
+padding: 7px 0 7px 0; /* This is the padding around the divider. */
+margin-bottom: 9px; /* This gives space below the divider. */
+}
+
+.twitter_title{
+font-family: "Comic Sans MS", Calibri, Arial;
+font-size: 18px;
+font-weight: bold;
+color: #000000;
 }
