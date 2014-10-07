@@ -72,17 +72,16 @@ a:link {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
-  width: 250px;
 }
 
 .right-col {
-  margin-top: 15px;
-  text-align: left;
-  position: relative;
+  margin-top: 30px;
   float: right;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: auto;
+  padding-right: 15px;
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mid-col {
@@ -92,7 +91,7 @@ a:link {
   border-right: 1px groove black;
   margin-left: auto;
   margin-right: auto;
-  max-width: 65%;
+  max-width: 900px;
   position: relative;
   padding-left: 30px;
   padding-right: 30px;
@@ -149,10 +148,13 @@ h3 {
   display: inline-block;
 }
 
-.left-col p;
+.left-col p{
+  padding-top: 5px;
+}
+
 .right-col p {
-  font-size: 14px;
-  position: relative;
+  text-align: center;
+  float:right;
   padding-top: 5px;
 }
 
@@ -162,32 +164,4 @@ h3 {
   height: 38px;
   margin-right:10px;
   margin-left:10px;
-}
-
-#twitter-feed {
-
-}
-
-#twitter_update_list a[style="font-size: 85%;"] {
-font-size: 1em !important;
-}
-
-.twitter-list {
-list-style:none; /* This removes the bullet in the list. */
-margin:0 0 0 0; /* This moves the indent over in the list. */
-padding: 0 0 0 0; /* This moves the indent over in the list. */
-display: block; /* This moves the indent over in the list. */
-}
-
-.twitter-list li {
-border-bottom: 2px dashed #009999; /* This is the color of the divider. */
-padding: 7px 0 7px 0; /* This is the padding around the divider. */
-margin-bottom: 9px; /* This gives space below the divider. */
-}
-
-.twitter_title{
-font-family: "Comic Sans MS", Calibri, Arial;
-font-size: 18px;
-font-weight: bold;
-color: #000000;
 }
