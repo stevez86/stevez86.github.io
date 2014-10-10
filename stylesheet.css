@@ -1,15 +1,19 @@
 html{
     font-family: Georgia;
-    background-color: #E6E6E6;
+    /*background-color: #E6E6E6;*/
 }
 
 .header {
-  background-color: #CCCCCC;
+  /*background-color: #CCCCCC;*/
   text-align: center;
-  width: 100%;
+  max-width: 1000px;
   min-height: 175px;
   font-size: 25px;
-  border-bottom: 2px groove black;
+  border-bottom: 1px groove black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .home-row-links {
@@ -68,33 +72,34 @@ a:link {
 }
 
 .left-col {
-  margin-top: 15px;
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*margin-top: 15px;*/
+  /*float: left;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
 }
 
 .right-col {
-  margin-top: 30px;
-  float: right;
-  padding-left: auto;
-  padding-right: 15px;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-top: 30px;*/
+  /*float: right;*/
+  /*padding-left: auto;*/
+  /*padding-right: 15px;*/
+  /*width: 250px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
 }
 
 .mid-col {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   margin-bottom: 30px;
-  border-left: 1px groove black;
-  border-right: 1px groove black;
+  /*border-left: 1px groove black;*/
+  /*border-right: 1px groove black;*/
   margin-left: auto;
   margin-right: auto;
   max-width: 900px;
   position: relative;
   padding-left: 30px;
   padding-right: 30px;
+  /*background-color: #E6E6E6;*/
 }
 
 
@@ -103,11 +108,18 @@ h3 {
 }
 
 .footer {
-  background-color: #CCCCCC;
+  /*background-color: #CCCCCC;*/
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   border-top: 1px groove black;
+  max-width: 1000px;
+/*  min-height: 175px;*/
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .mid-col p {
