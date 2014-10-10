@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheet.css"/>
+    <title>
+        Z Blog
+    </title>
+  </head>
+
+  <body>
+    <header>
+        <div class="header">
+            <p id="title">Z Blog</p>
+            <ul class="home-row-links">
+                <li><a class="title-text-link" href="../index.html">About me</a></li>
+                <li><a class="title-text-link" href="../projects/projects.html">Projects</a></li>
+                <li><a class="title-text-link" href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main-body">
+
+        <div class="left-col">
+        </div>
+
+        <div class="right-col">
+        </div>
+
+        <div class="mid-col">
+            <h2>Enumerable Method: group_by</h2>
+            <p><i>Friday, October 10th, 2014</i></p>
+            <p>For this week I am tasked with writing an entry regarding one of three topics that have to do with Enumerable methods; Enumerable#map, Enumerable#group_by and Enumerable#cycle. I randomly chose to discuss Enumerable#group_by. Enumerable#group_by is part of the enumerable class and it allows you to enumerate over a hash or array to literally group. Enumerables provide many standard methods that allow the programmer to focus on the creative aspect of programming.</p>
+
+            <p>Enumerable#group_by takes a block and returns a hash with the keys set as the return from the block. This has some practical applications. The example Ruby gives is the following:</p>
+
+            <q>(1..6).group_by { | i |  i % 3 }</q>
+
+            <p>Which returns the following hash:</p>
+
+            <q>#=> { 0 => [3,6], 1 => [1, 4], 2 => [2,5] }</q>
+
+            <p>I'll try to break this down for what Enumerable#group_by being called on the array (1..6) is doing here. Enumerable#group_by iterates over each item in the array. Taking the value of each item and passing it into the block through, in this case, the object, i . Remember we set the object to i when we put it between the two vertical lines inside the squiggly brackets (yea, that's my terminology too). So for the array, i starts as the first item, the integer, 1 and performs the block, in this case, i % 3. When i equals 1, i % 3 is also 1. This goes into the has where the key is the item of the array (i) and the value is the result of the block, i % 3. Both happen to be 1 in this case. This is repeated for all items of the array, number 1 through 6 adding to the hash getting the result above.</p>
+
+            <p>Some examples where this may be useful are word search documents. Imagine group by being run on this blog. You could then easily return the word count for any specific word in this blog very easily. Another example would be if you had a huge array of names. You could use Enumerable#group_by to sort by name length, by names starting with a letter or containing a letter. Once you run the specific Enumerable#group_by then recalling that data is extremely easy. ON a bigger scale, I can see the group by being used to "crunch the numbers" for a search engine periodically and when a specific search is queried then the data is easily recalled, quickly and efficiently, without having to "crunch the numbers" at runtime, resulting in a slow return.</p>
+
+            <p>I hope this gives you some ideas on how group_by can be used. Any other examples that you guys can think of?    </p>
+        </div>
+    </div>
+    <div class="footer">
+        <a class="social-icons" href="https://twitter.com/stevewzimmerman"><img id="icon" src="../imgs/twitter-icon.png"/></a>
+        <a class="social-icons" href="https://www.linkedin.com/in/stevewzimmerman"><img id="icon" src="../imgs/linkedin-icon.png"/></a>
+        <a class="social-icons" href="https://www.facebook.com/szman86"><img id="icon" src="../imgs/facebook-icon.png"/></a>
+    </div>
+
+  </body>
+
+</html>
