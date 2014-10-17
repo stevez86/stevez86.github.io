@@ -1,25 +1,27 @@
 html{
-    font-family: Georgia;
+     font-family: Avenir, Myriad, sans-serif;
     /*background-color: #E6E6E6;*/
 }
 
 .header {
   /*background-color: #CCCCCC;*/
+  font-family: Avenir;
   text-align: center;
-  max-width: 1000px;
-  min-height: 175px;
-  font-size: 25px;
+  max-width: 960px;
+  /*min-height: 140px;*/
+  font-size: 24px;
   border-bottom: 1px groove black;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  /*padding-left: 30px;*/
+  /*padding-right: 50px;*/
 }
 
 .home-row-links {
   padding-left: 0px;
-  padding-top: 0px;
-  margin-bottom: 10px ;
+  /*padding-top: 10px;*/
+  padding-bottom: 5px;
+  margin-bottom: 0px ;
   margin-top: 0px;
 }
 
@@ -28,24 +30,33 @@ html{
 }
 
 #title {
-  font-size: 110px;
+  font-size: 55px;
   margin: 0px;
-  max-height: 135px;
+  padding: 0px;
+  /*padding-bottom: 10px;*/
+  max-height: 65px;
 }
 
 .title-text-link {
   position: relative;
-  margin-top: 0px;
+  margin-top: 5px;
   display: inline-block;
   text-align: center;
-  padding: 5px 12px 5px 12px;
-  border: 2px solid black;
+  /*padding: 5px 10px 5px 10px;*/
+  border: 0px solid black;
   border-radius: 10px;
-  background-color: #E6E6E6;
+  /*background-color: #E6E6E6;*/
 }
 
 a.title-text-link:hover {
   background-color: #FDD017;
+}
+
+a.title-text-link:link {
+  padding: 2px 10px 4px 10px;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 a {
@@ -58,6 +69,8 @@ a:visited {
 
 a:link {
   color: black;
+  padding: 3px 2px 1px 2px;
+  border-radius: 10px;
 }
 
 .main-body {
@@ -69,6 +82,8 @@ a:link {
 .mid-col a:hover {
   background-color: #FDD017;
   /*color: #FDD017;*/
+  border-radius: 10px;
+  padding: 3px 2px 1px 2px;
 }
 
 .left-col {
@@ -113,7 +128,7 @@ h3 {
   padding-bottom: 10px;
   text-align: center;
   border-top: 1px groove black;
-  max-width: 1000px;
+  max-width: 900px;
 /*  min-height: 175px;*/
   font-size: 25px;
   margin-left: auto;
@@ -134,25 +149,27 @@ h3 {
 
 #profile-pic {
   float: left;
-  padding-right: 10px;
-  height: 150px;
+  padding: 5px 10px 5px 5px;
+  height: 175px;
 }
 
 #chiskyline {
   float: left;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
   height: 120px;
+  padding: 5px 10px 5px 5px;
 }
 
 #houskyline {
   float: right;
-  padding-left: 10px;
   height: 150px;
+  padding: 5px 5px 5px 10px;
 }
 
 #puimg {
   float: right;
-  height: 150px;
+  height: 175px;
+  padding: 5px 5px 5px 10px;
 }
 
 .mid-col div p{

@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheet.css"/>
+    <title>
+        Z Blog
+    </title>
+  </head>
+
+  <body>
+    <header>
+        <div class="header">
+            <p id="title">Steve Zimmerman</p>
+            <ul class="home-row-links">
+                <li><a class="title-text-link" href="../index.html">about me</a></li>
+                <li><a class="title-text-link" href="../projects/projects.html">projects</a></li>
+                <li><a class="title-text-link" href="blog.html">blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main-body">
+
+        <div class="left-col">
+        </div>
+
+        <div class="right-col">
+        </div>
+
+        <div class="mid-col">
+            <h2>My introduction to Ruby Classes</h2>
+            <p><i>Friday, October 17th, 2014</i></p>
+            <p>For this week's technical blog, I've been tasked with writing about how ruby classes can be used to model real life objects. I've decided that one real-life case where ruby classes would be useful is with modeling a deck of cards. According to the ruby docs, classes in Ruby are first-class objects, meaning each is an instance of class 'Class'. They are created with the following code:</p>
+
+            <blockquote>class CardDeck<br>
+                &nbsp&nbsp&nbsp&nbspdef initialize<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp # code to initialize the class<br>
+                &nbsp&nbsp&nbsp&nbsp end<br>
+            end</blockquote>
+
+            <p>When a new class is created, an object of type Class is initialized and assigned to a global constant (CardDeck in this case). When CardDeck.new is called to create a new object, the new method is run by default. For my example of a card deck, one could create a card deck, initialize each card in order with suits and the card value, create methods to shuffle the deck, return a card (either from a certain position or the next position), initialize it for a specific game that may not use all the cards of a deck, initialize it for a deck that may have certain wild cards, etc, initialize it as a deck that's actually made up of multiple decks (ex. Blackjack).</p>
+
+            <p>Creating a class for a carddeck would be beneficial for use in coding a card game such as blackjack. One could call a method to return the next card and the management of the card deck can be managed elsewhere. The point of a class is to create a system that reduces code overhead and works for you allowing you to focus on the creativity of coding a solution to the problem.</p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <a class="social-icons" href="https://twitter.com/stevewzimmerman"><img id="icon" src="../imgs/twitter-icon.png"/></a>
+        <a class="social-icons" href="https://www.linkedin.com/in/stevewzimmerman"><img id="icon" src="../imgs/linkedin-icon.png"/></a>
+        <a class="social-icons" href="https://www.facebook.com/szman86"><img id="icon" src="../imgs/facebook-icon.png"/></a>
+    </div>
+
+  </body>
+
+</html>
