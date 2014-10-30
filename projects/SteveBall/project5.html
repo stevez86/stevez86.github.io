@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<body>
+
+<div id="title">Steve's Happy Ball</div>
+
+<div id="field">
+  <div id="ball">
+  </div>
+</div>
+
+<div class="button-row">
+  <button class="myButton" onclick="moveLeft()">Move Left</button>
+  <button class="myButton" onclick="moveUp()">Move Up</button>
+  <button class="myButton" onclick="moveDown()">Move Down</button>
+  <button class="myButton" onclick="moveRight()">Move Right</button>
+</div>
+
+<div class="button-row">
+  <button class="myButton" id="happinessbutton" onclick="changehappiness()">Make Unhappy</button>
+</div>
+
+<script src="my_solution.js">
+</script>
+
+<style>
+
+#title {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: Avenir, Myriad, sans-serif;
+}
+
+.button-row {
+  text-align: center;
+  display: block;
+  margin-bottom: 15px;
+}
+
+#happinessbutton {
+  width: 225px;
+  text-align: center;
+}
+
+
+.myButton {
+  -moz-box-shadow: 0px 10px 14px -7px #276873;
+  -webkit-box-shadow: 0px 10px 14px -7px #276873;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+  background-color:#599bb3;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+  background-color:#408c99;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.button {
+  font-size: 30px;
+}
+
+#field {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  /*margin-top: 50px;*/
+  margin-bottom: 30px;
+  /*border: 3px dotted white;*/
+  /*top: 50px;*/
+  /*width: 800px;*/
+  /*height: 800px;*/
+  background: green;
+}
+
+#ball {
+  position: absolute;
+  /*top: 0px;*/
+  /*left: 0px;*/
+  /*height: 30px;*/
+  /*width: 30px;*/
+  /*border: 2px solid black;*/
+  /*background: red;*/
+  /*border-radius: 15px;*/
+  /*background-image: url('happy-face.jpeg');*/
+  /*background-size: 135%;*/
+  /*background-size: 50px;*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+}
+
+</style>
+<!--
+
+<script>
+// document.body.innerHTML = 'Hello World';
+
+var hello-text = document.getElementbyId("hello-text");
+
+// document.getElementbyId("ML").onclick = moveLeft();
+// document.getElementbyId("MR").onclick = moveRight();
+// document.getElementbyId("MU").onclick = moveUp();
+// document.getElementbyId("MD").onclick = moveDown();
+
+var positionLeft = 110;
+var positionTop = 150;
+
+function moveLeft() {
+  alert('Hello World!');
+
+  if (positionLeft >= 100) {
+    positionLeft -= 100;
+    hello-text.style.left = positionLeft + "px";
+  }
+}
+
+function moveRight() {
+  alert('Hello World!');
+
+  if (positionLeft <= 800) {
+    positionLeft += 100;
+    hello-text.style.left = positionLeft + "px";
+  }
+}
+function moveUp() {
+  alert('Hello World!');
+
+  if (positionTop >= 150) {
+    positionTop -= 100;
+    hello-text.style.top = positionTop + "px";
+  }
+}
+
+function moveDown() {
+  alert('Hello World!');
+
+  if (positionTop <= 800) {
+    positionTop += 100;
+    hello-text.style.top = positionTop + "px";
+  }
+}
+
+function myFunction() {
+  alert('Hello World!');
+  document.getElementbyId("hello-text").style.color = "red";
+}
+</script>
+
+<button onclick="myFunction()">Move Left</button>
+<button onclick="moveRight()">Move Right</button>
+<button onclick="moveUp()">Move Up</button>
+<button onclick="moveDown()">Move Down</button>
+
+<button id="ML">Move Left</button>
+<button id="MR">Move Right</button>
+<button id="MU">Move Up</button>
+<button id="MD">Move Down</button> -->
+
+</body>
+</html>
