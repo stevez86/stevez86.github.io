@@ -2,44 +2,19 @@ html{
      font-family: Avenir, Myriad, sans-serif;
     /*background-color: #E6E6E6;*/
 }
-
-.header {
-  /*background-color: #CCCCCC;*/
+body{
+  width: 100%;
+  font-size: 16px;
+}
+header {
   font-family: Avenir;
   text-align: center;
-  /*max-width: 960px;*/
-  /*min-height: 140px;*/
-  font-size: 24px;
   border-bottom: 1px groove black;
   margin-left: auto;
   margin-right: auto;
-  /*padding-left: 30px;*/
-  /*padding-right: 50px;*/
-}
-
-
-.home-row-links li {
-  display:inline-block;
-}
-
-#title {
   font-size: 35px;
-  margin: 0px;
-  padding: 0px;
-  /*padding-bottom: 10px;*/
   max-height: 65px;
 }
-
-/*.title-text-link {
-  position: relative;
-  margin-top: 5px;
-  display: inline-block;
-  text-align: center;
-  padding: 5px 10px 5px 10px;
-  border: 0px solid black;
-  border-radius: 10px;
-  /*background-color: #E6E6E6;*/
-}*/
 
 a:hover {
   background-color: #FDD017;
@@ -68,18 +43,18 @@ a:link {
 
 .main-body {
   width: 100%;
-  display: inline-block;
+  /*display: inline-block;*/
   font-size: 16px;
 }
 
-.left-col a:hover {
+nav a:hover {
   background-color: #FDD017;
   /*color: #FDD017;*/
   border-radius: 10px;
   /*padding: 3px 3px 2px 3px;*/
 }
 
-.left-col {
+nav{
   margin-top: 25px;
   margin-left: 15px;
   float: left;
@@ -89,17 +64,7 @@ a:link {
   width: 150px;
 }
 
-.right-col {
-  /*margin-top: 30px;*/
-  /*float: right;*/
-  /*padding-left: auto;*/
-  /*padding-right: 15px;*/
-  /*width: 250px;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-}
-
-main {
+main{
   margin-top: 25px;
   margin-bottom: 30px;
   border-left: 1px groove black;
@@ -118,7 +83,7 @@ h3 {
   font-size: 17px;
 }
 
-.footer {
+footer {
   /*background-color: #CCCCCC;*/
   padding-top: 10px;
   padding-bottom: 10px;
@@ -133,35 +98,22 @@ h3 {
   padding-right: 30px;
 }
 
-.mid-col p {
+main p {
   text-align: top;
   /*font-size: 20px;*/
 }
 
-.mid-col img {
-  display:block;
-  padding-bottom: 20px;
-}
 
-
-.mid-col div p{
+main div p{
   display: inline-block;
 }
 
-.left-col a{
+nav a{
   display: block;
 }
 
-.right-col p {
+nav p {
   text-align: center;
   float:right;
   padding-top: 5px;
-}
-
-#icon {
-  border:1px solid black;
-  border-radius: 10px;
-  height: 38px;
-  margin-right:10px;
-  margin-left:10px;
 }

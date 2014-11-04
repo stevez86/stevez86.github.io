@@ -8,429 +8,420 @@
 
   <body>
     <header>
-        <div class="header">
-            <p id="title">HTML Cheatsheet</p>
-        </div>
+      <p id="title">HTML Cheatsheet</p>
     </header>
+    <nav>
+        <a href="#Basic_Tags">Basic Tags</a>
+        <a href="#Body_Attributes">Body Attributes</a>
+        <a href="#Text_Tags">Text Tags</a>
+        <a href="#Links">Links</a>
+        <a href="#Formatting">Formatting</a>
+        <a href="#Tables">Tables</a>
+        <a href="#Table_Attributes">Table Attributes</a>
+        <a href="#Frames">Frames</a>
+        <a href="#Frames_Attributes">Frames Attributes</a>
+        <a href="#Forms">Forms</a>
+    </nav>
+    <main>
+      <a name="Basic_Tags"></a><h4>Basic Tags</h4>
+      <p><tt>&lt;html&gt;&lt;/html&gt;</tt>
 
-    <div class="main-body">
+      Creates an HTML document
 
-        <div class="left-col">
-            <a href="#Basic_Tags">Basic Tags</a>
-            <a href="#Body_Attributes">Body Attributes</a>
-            <a href="#Text_Tags">Text Tags</a>
-            <a href="#Links">Links</a>
-            <a href="#Formatting">Formatting</a>
-            <a href="#Tables">Tables</a>
-            <a href="#Table_Attributes">Table Attributes</a>
-            <a href="#Frames">Frames</a>
-            <a href="#Frames_Attributes">Frames Attributes</a>
-            <a href="#Forms">Forms</a>
-        </div>
+      </p><p><tt>&lt;head&gt;&lt;/head&gt;</tt>
 
-        <div class="right-col">
-        </div>
+      Sets off the title and other information that isn&#8217;t displayed on the web page itself
 
-        <main>
-        <a name="Basic_Tags"></a><h4>Basic Tags</h4>
-        <p><tt>&lt;html&gt;&lt;/html&gt;</tt>
+      </p><p><tt>&lt;body&gt;&lt;/body&gt;</tt>
 
-        Creates an HTML document
+      Sets off the visible portion of the document
 
-        </p><p><tt>&lt;head&gt;&lt;/head&gt;</tt>
 
-        Sets off the title and other information that isn&#8217;t displayed on the web page itself
 
-        </p><p><tt>&lt;body&gt;&lt;/body&gt;</tt>
+      </p>
 
-        Sets off the visible portion of the document
+      <a name="Body_Attributes"></a><h4> <span class="mw-headline">Body Attributes</span></h4>
 
+      <p><tt>&lt;body bgcolor="pink"&gt;</tt>
 
+      Sets the background color, using name or hex value
 
-        </p>
+      </p><p><tt>&lt;body text="black"&gt;</tt>
 
-        <a name="Body_Attributes"></a><h4> <span class="mw-headline">Body Attributes</span></h4>
+      Sets the text color, using name or hex value
 
-        <p><tt>&lt;body bgcolor="pink"&gt;</tt>
+      </p><p><tt>&lt;body link="blue"&gt;</tt>
 
-        Sets the background color, using name or hex value
+      Sets the color of links, using name or hex value
 
-        </p><p><tt>&lt;body text="black"&gt;</tt>
+      </p><p><tt>&lt;body vlink="#ff0000"&gt;</tt>
 
-        Sets the text color, using name or hex value
+      Sets the color of followed links, using name or hex value
 
-        </p><p><tt>&lt;body link="blue"&gt;</tt>
+      </p><p><tt>&lt;body alink="#00ff00"&gt;</tt>
 
-        Sets the color of links, using name or hex value
 
-        </p><p><tt>&lt;body vlink="#ff0000"&gt;</tt>
 
-        Sets the color of followed links, using name or hex value
+      Sets the color of links on click
 
-        </p><p><tt>&lt;body alink="#00ff00"&gt;</tt>
+      </p><p><tt>&lt;body ondragstart="return false" onselectstart="return false"&gt;</tt>
 
+      Disallows text selection with the mouse and keyboard
 
+      </p>
 
-        Sets the color of links on click
+      <a name="Text_Tags"></a><h4> <span class="mw-headline">Text Tags</span></h4>
 
-        </p><p><tt>&lt;body ondragstart="return false" onselectstart="return false"&gt;</tt>
+      <p><tt>&lt;pre&gt;&lt;/pre&gt;</tt>
 
-        Disallows text selection with the mouse and keyboard
+      Creates preformatted text
 
-        </p>
+      </p><p><tt>&lt;hl&gt;&lt;/hl&gt;</tt>
 
-        <a name="Text_Tags"></a><h4> <span class="mw-headline">Text Tags</span></h4>
+      Creates the largest headline
 
-        <p><tt>&lt;pre&gt;&lt;/pre&gt;</tt>
+      </p><p><tt>&lt;h6&gt;&lt;/h6&gt;</tt>
 
-        Creates preformatted text
 
-        </p><p><tt>&lt;hl&gt;&lt;/hl&gt;</tt>
 
-        Creates the largest headline
+      Creates the smallest headline
 
-        </p><p><tt>&lt;h6&gt;&lt;/h6&gt;</tt>
+      </p><p><tt>&lt;b&gt;&lt;/b&gt;</tt>
 
+      Creates bold text
 
+      </p><p><tt>&lt;i&gt;&lt;/i&gt;</tt>
 
-        Creates the smallest headline
+      Creates italic text
 
-        </p><p><tt>&lt;b&gt;&lt;/b&gt;</tt>
+      </p><p><tt>&lt;tt&gt;&lt;/tt&gt;</tt>
 
-        Creates bold text
+      Creates teletype, or typewriter-style text
 
-        </p><p><tt>&lt;i&gt;&lt;/i&gt;</tt>
+      </p><p><tt>&lt;cite&gt;&lt;/cite&gt;</tt>
 
-        Creates italic text
+      Creates a citation, usually italic
 
-        </p><p><tt>&lt;tt&gt;&lt;/tt&gt;</tt>
 
-        Creates teletype, or typewriter-style text
 
-        </p><p><tt>&lt;cite&gt;&lt;/cite&gt;</tt>
+      </p><p><tt>&lt;em&gt;&lt;/em&gt;</tt>
 
-        Creates a citation, usually italic
+      Emphasizes a word (with italic or bold)
 
+      </p><p><tt>&lt;strong&gt;&lt;/strong&gt;</tt>
 
+      Emphasizes a word (with italic or bold)
 
-        </p><p><tt>&lt;em&gt;&lt;/em&gt;</tt>
+      </p><p><tt>&lt;font size="3"&gt;&lt;/font&gt;</tt>
 
-        Emphasizes a word (with italic or bold)
+      Sets size of font, from 1 to 7
 
-        </p><p><tt>&lt;strong&gt;&lt;/strong&gt;</tt>
+      </p><p><tt>&lt;font color="green"&gt;&lt;/font&gt;</tt>
 
-        Emphasizes a word (with italic or bold)
+      Sets font color, using name or hex value
 
-        </p><p><tt>&lt;font size="3"&gt;&lt;/font&gt;</tt>
+      </p>
 
-        Sets size of font, from 1 to 7
 
-        </p><p><tt>&lt;font color="green"&gt;&lt;/font&gt;</tt>
 
-        Sets font color, using name or hex value
+      <a name="Links"></a><h4> <span class="mw-headline">Links</span></h4>
 
-        </p>
+      <p><tt>&lt;a href="URL"&gt;&lt;/a&gt;</tt>
 
+      Creates a hyperlink
 
+      </p><p><tt>&lt;a href="mailto:EMAIL"&gt;&lt;/a&gt;</tt>
 
-        <a name="Links"></a><h4> <span class="mw-headline">Links</span></h4>
+      Creates a mailto link
 
-        <p><tt>&lt;a href="URL"&gt;&lt;/a&gt;</tt>
+      </p><p><tt>&lt;a href="URL"&gt;&lt;img src="URL"&gt;</tt> &lt;/a&gt; Creates an image/link
 
-        Creates a hyperlink
 
-        </p><p><tt>&lt;a href="mailto:EMAIL"&gt;&lt;/a&gt;</tt>
 
-        Creates a mailto link
+      </p><p><tt>&lt;a name="NAME"&gt;&lt;/a&gt;</tt>
 
-        </p><p><tt>&lt;a href="URL"&gt;&lt;img src="URL"&gt;</tt> &lt;/a&gt; Creates an image/link
+      Creates a target location within a document
 
+      </p><p><tt>&lt;a href="#NAME"&gt;&lt;/a&gt;</tt>
 
+      Links to that target location from elsewhere in the document
 
-        </p><p><tt>&lt;a name="NAME"&gt;&lt;/a&gt;</tt>
+      </p>
 
-        Creates a target location within a document
+      <a name="Formatting"></a><h4> <span class="mw-headline">Formatting</span></h4>
 
-        </p><p><tt>&lt;a href="#NAME"&gt;&lt;/a&gt;</tt>
+      <p><tt>&lt;p&gt;&lt;/p&gt;</tt>
 
-        Links to that target location from elsewhere in the document
+      Creates a new paragraph
 
-        </p>
+      </p><p><tt>&lt;p align="left"&gt;</tt>
 
-        <a name="Formatting"></a><h4> <span class="mw-headline">Formatting</span></h4>
 
-        <p><tt>&lt;p&gt;&lt;/p&gt;</tt>
 
-        Creates a new paragraph
+      Aligns a paragraph to the left (default), right, or center.
 
-        </p><p><tt>&lt;p align="left"&gt;</tt>
+      </p><p><tt>&lt;br&gt;</tt>
 
+      Inserts a line break
 
+      </p><p><tt>&lt;blockquote&gt;&lt;/blockquote&gt;</tt>
 
-        Aligns a paragraph to the left (default), right, or center.
+      Indents text from both sides
 
-        </p><p><tt>&lt;br&gt;</tt>
+      </p><p><tt>&lt;dl&gt;&lt;/dl&gt;</tt>
 
-        Inserts a line break
+      Creates a definition list
 
-        </p><p><tt>&lt;blockquote&gt;&lt;/blockquote&gt;</tt>
+      </p><p><tt>&lt;dt&gt;</tt>
 
-        Indents text from both sides
+      Precedes each definition term
 
-        </p><p><tt>&lt;dl&gt;&lt;/dl&gt;</tt>
+      </p><p><tt>&lt;dd&gt;</tt>
 
-        Creates a definition list
 
-        </p><p><tt>&lt;dt&gt;</tt>
 
-        Precedes each definition term
+      Precedes each definition
 
-        </p><p><tt>&lt;dd&gt;</tt>
+      </p><p><tt>&lt;ol&gt;&lt;/ol&gt;</tt>
 
+      Creates a numbered list
 
+      </p><p><tt>&lt;ul&gt;&lt;/ul&gt;</tt>
 
-        Precedes each definition
+      Creates a bulleted list
 
-        </p><p><tt>&lt;ol&gt;&lt;/ol&gt;</tt>
+      </p><p><tt>&lt;li&gt;&lt;/li&gt;</tt>
 
-        Creates a numbered list
+      Precedes each list item, and adds a number or symbol depending upon the type of list selected
 
-        </p><p><tt>&lt;ul&gt;&lt;/ul&gt;</tt>
+      </p><p><tt>&lt;div align="left"&gt;</tt>
 
-        Creates a bulleted list
+      A generic tag used to format large blocks of HTML, also used for stylesheets
 
-        </p><p><tt>&lt;li&gt;&lt;/li&gt;</tt>
+      </p><p><tt>&lt;img src="name"&gt;</tt>
 
-        Precedes each list item, and adds a number or symbol depending upon the type of list selected
 
-        </p><p><tt>&lt;div align="left"&gt;</tt>
 
-        A generic tag used to format large blocks of HTML, also used for stylesheets
+      Adds an image
 
-        </p><p><tt>&lt;img src="name"&gt;</tt>
+      </p><p><tt>&lt;img src="name" align="left"&gt;</tt>
 
+      Aligns an image: left, right, center; bottom, top, middle
 
+      </p><p><tt>&lt;img src="name" border="1"&gt;</tt>
 
-        Adds an image
+      Sets size of border around an image
 
-        </p><p><tt>&lt;img src="name" align="left"&gt;</tt>
+      </p><p><tt>&lt;hr /&gt;</tt>
 
-        Aligns an image: left, right, center; bottom, top, middle
+      Inserts a horizontal rule
 
-        </p><p><tt>&lt;img src="name" border="1"&gt;</tt>
+      </p><p><tt>&lt;hr size="3" /&gt;</tt>
 
-        Sets size of border around an image
+      Sets size (height) of rule
 
-        </p><p><tt>&lt;hr /&gt;</tt>
+      </p><p><tt>&lt;hr width="80%" /&gt;</tt>
 
-        Inserts a horizontal rule
+      Sets width of rule, in percentage or absolute value
 
-        </p><p><tt>&lt;hr size="3" /&gt;</tt>
+      </p><p><tt>&lt;hr noshade /&gt;</tt>
 
-        Sets size (height) of rule
 
-        </p><p><tt>&lt;hr width="80%" /&gt;</tt>
 
-        Sets width of rule, in percentage or absolute value
+      Creates a rule without a shadow
 
-        </p><p><tt>&lt;hr noshade /&gt;</tt>
+      </p>
 
+      <a name="Tables"></a><h4> <span class="mw-headline">Tables</span></h4>
 
+      <p><tt>&lt;table&gt;&lt;/table&gt;</tt>
 
-        Creates a rule without a shadow
+      Creates a table
 
-        </p>
+      </p><p><tt>&lt;tr&gt;&lt;/tr&gt;</tt>
 
-        <a name="Tables"></a><h4> <span class="mw-headline">Tables</span></h4>
+      Sets off each row in a table
 
-        <p><tt>&lt;table&gt;&lt;/table&gt;</tt>
+      </p><p><tt>&lt;td&gt;&lt;/td&gt;</tt>
 
-        Creates a table
+      Sets off each cell in a row
 
-        </p><p><tt>&lt;tr&gt;&lt;/tr&gt;</tt>
 
-        Sets off each row in a table
 
-        </p><p><tt>&lt;td&gt;&lt;/td&gt;</tt>
+      </p><p><tt>&lt;th&gt;&lt;/th&gt;</tt>
 
-        Sets off each cell in a row
+      Sets off the table header (a normal cell with bold, centered text)
 
+      </p>
 
+      <a name="Table_Attributes"></a><h4> <span class="mw-headline">Table Attributes</span></h4>
 
-        </p><p><tt>&lt;th&gt;&lt;/th&gt;</tt>
+      <p><tt>&lt;table border="1"&gt;</tt>
 
-        Sets off the table header (a normal cell with bold, centered text)
+      Sets width of border around table cells
 
-        </p>
+      </p><p><tt>&lt;table cellspacing="1"&gt;</tt>
 
-        <a name="Table_Attributes"></a><h4> <span class="mw-headline">Table Attributes</span></h4>
+      Sets amount of space between table cells
 
-        <p><tt>&lt;table border="1"&gt;</tt>
+      </p><p><tt>&lt;table cellpadding="1"&gt;</tt>
 
-        Sets width of border around table cells
+      Sets amount of space between a cell&#8217;s border and its contents
 
-        </p><p><tt>&lt;table cellspacing="1"&gt;</tt>
 
-        Sets amount of space between table cells
 
-        </p><p><tt>&lt;table cellpadding="1"&gt;</tt>
+      </p><p><tt>&lt;table width="500" or "80%"&gt;</tt>
 
-        Sets amount of space between a cell&#8217;s border and its contents
+      Sets width of table, in pixels or as a percentage of document width
 
+      </p><p><tt>&lt;tr align="left"&gt; or &lt;td align="left"&gt;</tt>
 
+      Sets alignment for cell(s) (left, center, or right)
 
-        </p><p><tt>&lt;table width="500" or "80%"&gt;</tt>
+      </p><p><tt>&lt;tr valign="top"&gt; or &lt;td valign="top"&gt;</tt>
 
-        Sets width of table, in pixels or as a percentage of document width
+      Sets vertical alignment for cell(s) (top, middle, or bottom)
 
-        </p><p><tt>&lt;tr align="left"&gt; or &lt;td align="left"&gt;</tt>
+      </p><p><tt>&lt;td colspan="2"&gt;</tt>
 
-        Sets alignment for cell(s) (left, center, or right)
 
-        </p><p><tt>&lt;tr valign="top"&gt; or &lt;td valign="top"&gt;</tt>
 
-        Sets vertical alignment for cell(s) (top, middle, or bottom)
+      Sets number of columns a cell should span (default=1)
 
-        </p><p><tt>&lt;td colspan="2"&gt;</tt>
+      </p><p><tt>&lt;td rowspan="4"&gt;</tt>
 
+      Sets number of rows a cell should span (default=1)
 
+      </p><p><tt>&lt;td nowrap&gt;</tt>
 
-        Sets number of columns a cell should span (default=1)
+      Prevents the lines within a cell from being broken to fit
 
-        </p><p><tt>&lt;td rowspan="4"&gt;</tt>
+      </p>
 
-        Sets number of rows a cell should span (default=1)
+      <a name="Frames"></a><h4> <span class="mw-headline">Frames</span></h4>
 
-        </p><p><tt>&lt;td nowrap&gt;</tt>
+      <p><tt>&lt;frameset&gt;&lt;/frameset&gt;</tt>
 
-        Prevents the lines within a cell from being broken to fit
+      Replaces the &lt;body&gt; tag in a frames document; can also be nested in other framesets
 
-        </p>
 
-        <a name="Frames"></a><h4> <span class="mw-headline">Frames</span></h4>
 
-        <p><tt>&lt;frameset&gt;&lt;/frameset&gt;</tt>
+      </p><p><tt>&lt;frameset rows="value,value"&gt;</tt>
 
-        Replaces the &lt;body&gt; tag in a frames document; can also be nested in other framesets
+      Defines the rows within a frameset, using number in pixels, or percentage of width
 
+      </p><p><tt>&lt;frameset cols="value,value"&gt;</tt>
 
+      Defines the columns within a frameset, using number in pixels, or percentage of width
 
-        </p><p><tt>&lt;frameset rows="value,value"&gt;</tt>
+      </p><p><tt>&lt;frame&gt;</tt>
 
-        Defines the rows within a frameset, using number in pixels, or percentage of width
+      Defines a single frame — or region — within a frameset
 
-        </p><p><tt>&lt;frameset cols="value,value"&gt;</tt>
+      </p><p><tt>&lt;noframes&gt;&lt;/noframes&gt;</tt>
 
-        Defines the columns within a frameset, using number in pixels, or percentage of width
+      Defines what will appear on browsers that don&#8217;t support frames
 
-        </p><p><tt>&lt;frame&gt;</tt>
+      </p>
 
-        Defines a single frame — or region — within a frameset
+      <a name="Frames_Attributes"></a><h4> <span class="mw-headline">Frames Attributes</span></h4>
 
-        </p><p><tt>&lt;noframes&gt;&lt;/noframes&gt;</tt>
 
-        Defines what will appear on browsers that don&#8217;t support frames
 
-        </p>
+      <p><tt>&lt;frame src="URL"&gt;</tt>
 
-        <a name="Frames_Attributes"></a><h4> <span class="mw-headline">Frames Attributes</span></h4>
+      Specifies which HTML document should be displayed
 
+      </p><p><tt>&lt;frame name="name"&gt;</tt>
 
+      Names the frame, or region, so it may be targeted by other frames
 
-        <p><tt>&lt;frame src="URL"&gt;</tt>
+      </p><p><tt>&lt;frame marginwidth="value"&gt;</tt>
 
-        Specifies which HTML document should be displayed
+      Defines the left and right margins for the frame; must be equal to or greater
 
-        </p><p><tt>&lt;frame name="name"&gt;</tt>
+      than 1
 
-        Names the frame, or region, so it may be targeted by other frames
+      </p><p><tt>&lt;frame marginheight="value"&gt;</tt>
 
-        </p><p><tt>&lt;frame marginwidth="value"&gt;</tt>
+      Defines the top and bottom margins for the frame; must be equal to or greater
 
-        Defines the left and right margins for the frame; must be equal to or greater
+      than 1
 
-        than 1
+      </p><p><tt>&lt;frame scrolling="value"&gt;</tt>
 
-        </p><p><tt>&lt;frame marginheight="value"&gt;</tt>
+      Sets whether the frame has a scrollbar; value may equal &#8220;yes,&#8221; &#8220;no,&#8221; or &#8220;auto.&#8221; The default, as in ordinary documents, is auto.
 
-        Defines the top and bottom margins for the frame; must be equal to or greater
+      </p><p><tt>&lt;frame noresize="noresize"&gt;</tt>
 
-        than 1
 
-        </p><p><tt>&lt;frame scrolling="value"&gt;</tt>
 
-        Sets whether the frame has a scrollbar; value may equal &#8220;yes,&#8221; &#8220;no,&#8221; or &#8220;auto.&#8221; The default, as in ordinary documents, is auto.
+      Prevents the user from resizing a frame
 
-        </p><p><tt>&lt;frame noresize="noresize"&gt;</tt>
+      </p>
 
+      <a name="Forms"></a><h4> <span class="mw-headline">Forms</span></h4>
 
+      <p>For functional forms, you&#8217;ll have to run a script. The HTML just creates the appearance of a form.
 
-        Prevents the user from resizing a frame
+      </p><p><tt>&lt;form&gt;&lt;/form&gt;</tt>
 
-        </p>
+      Creates all forms
 
-        <a name="Forms"></a><h4> <span class="mw-headline">Forms</span></h4>
+      </p><p><tt>&lt;select multiple name="NAME" size=?&gt;&lt;/select&gt;</tt>
 
-        <p>For functional forms, you&#8217;ll have to run a script. The HTML just creates the appearance of a form.
+      Creates a scrolling menu. Size sets the number of menu items visible before you need to scroll.
 
-        </p><p><tt>&lt;form&gt;&lt;/form&gt;</tt>
+      </p><p><tt>&lt;option&gt;</tt>
 
-        Creates all forms
+      Sets off each menu item
 
-        </p><p><tt>&lt;select multiple name="NAME" size=?&gt;&lt;/select&gt;</tt>
 
-        Creates a scrolling menu. Size sets the number of menu items visible before you need to scroll.
 
-        </p><p><tt>&lt;option&gt;</tt>
+      </p><p><tt>&lt;select name="NAME"&gt;&lt;/select&gt;</tt>
 
-        Sets off each menu item
+      Creates a pulldown menu
 
+      </p><p><tt>&lt;option&gt;</tt>
 
+      Sets off each menu item
 
-        </p><p><tt>&lt;select name="NAME"&gt;&lt;/select&gt;</tt>
+      </p><p><tt>&lt;textarea name="NAME" cols=40 rows=8&gt;&lt;/textarea name&gt;</tt>
 
-        Creates a pulldown menu
+      Creates a text box area. Columns set the width; rows set the height.
 
-        </p><p><tt>&lt;option&gt;</tt>
+      </p><p><tt>&lt;input type="checkbox" name="NAME"&gt;</tt>
 
-        Sets off each menu item
+      Creates a checkbox. Text follows tag.
 
-        </p><p><tt>&lt;textarea name="NAME" cols=40 rows=8&gt;&lt;/textarea name&gt;</tt>
+      </p><p><tt>&lt;input type="radio" name="NAME" value="x"&gt;</tt>
 
-        Creates a text box area. Columns set the width; rows set the height.
+      Creates a radio button. Text follows tag
 
-        </p><p><tt>&lt;input type="checkbox" name="NAME"&gt;</tt>
 
-        Creates a checkbox. Text follows tag.
 
-        </p><p><tt>&lt;input type="radio" name="NAME" value="x"&gt;</tt>
+      </p><p><tt>&lt;input type="text" name="NAME" size=20&gt;</tt>
 
-        Creates a radio button. Text follows tag
+      Creates a one-line text area. Size sets length, in characters.
 
+      </p><p><tt>&lt;input type="submit" value="NAME"&gt;</tt>
 
+      Creates a Submit button
 
-        </p><p><tt>&lt;input type="text" name="NAME" size=20&gt;</tt>
+      </p><p><tt>&lt;button type="submit"&gt;Submit&lt;/button&gt;</tt>
 
-        Creates a one-line text area. Size sets length, in characters.
+      Creates an actual button that is clicked
 
-        </p><p><tt>&lt;input type="submit" value="NAME"&gt;</tt>
+      </p><p><tt>&lt;input type="image" border=0 name="NAME" src="name.gif"&gt;</tt>
 
-        Creates a Submit button
+      Creates a Submit button using an image
 
-        </p><p><tt>&lt;button type="submit"&gt;Submit&lt;/button&gt;</tt>
+      </p><p><tt>&lt;input type="reset"&gt;</tt>
 
-        Creates an actual button that is clicked
-
-        </p><p><tt>&lt;input type="image" border=0 name="NAME" src="name.gif"&gt;</tt>
-
-        Creates a Submit button using an image
-
-        </p><p><tt>&lt;input type="reset"&gt;</tt>
-
-        Creates a Reset button            </div>
-        </main>
-    </div>
+      Creates a Reset button
+    </main>
     <footer>
+      Created by Forrest Venable and Steve Zimmerman
     </footer>
 
   </body>
