@@ -52,6 +52,10 @@ a.title-text-link:hover {
   background-color: #FDD017;
 }
 
+.selected {
+  background-color: #FDD017;
+}
+
 a.title-text-link:link {
   padding: 3px 6px 2px 6px;
   border-radius: 10px;
