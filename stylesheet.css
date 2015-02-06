@@ -59,7 +59,7 @@ a.title-text-link:link {
   margin-left: 12px;
 }
 
-a {
+.home-row-links a {
   text-decoration:none;
 }
 
@@ -68,7 +68,7 @@ a:visited {
 }
 
 a:link {
-  color: black;
+  color: #666;
   padding: 3px 3px 2px 3px;
   border-radius: 10px;
 }
@@ -79,9 +79,13 @@ a:link {
   font-size: 16px;
 }
 
+.mid-col a {
+  color: black;
+}
+
 .mid-col a:hover {
-  background-color: #FDD017;
-  /*color: #FDD017;*/
+  /*background-color: #FDD017;*/
+  color: #FDD017;
   border-radius: 10px;
   /*padding: 3px 3px 2px 3px;*/
 }
@@ -149,9 +153,11 @@ h3 {
 
 #profile-pic {
   float: right;
-  padding: 5px 0px 5px 12px;
+  padding: 5px 5px 5px 15px;
   /*margin: 0px 0px 10px 0px;*/
-  height: 250px;
+  height: 260px;
+  width: 260px;
+  overflow: hidden;
 }
 
 h2 {
