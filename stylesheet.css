@@ -209,3 +209,11 @@ h2 {
   margin-right:10px;
   margin-left:10px;
 }
+
+#project-thumbnail {
+  width: 220px;
+  padding-top: 20px;
+  float: right;
+  padding-left: 10px;
+  /*height: 200px;*/
+}
