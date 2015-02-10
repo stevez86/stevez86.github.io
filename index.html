@@ -1,6 +1,12 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
     <title>
         Steve Zimmerman - About Me
     </title>
@@ -9,11 +15,27 @@
     <header>
         <div class="header">
             <p id="title">Steve Zimmerman</p>
-            <ul class="home-row-links">
-                <li><a class="title-text-link" href="projects/projects.html">projects</a></li>
-                <li><a class="title-text-link selected" href="index.html">about me</a></li>
-                <li><a class="title-text-link" href="blog/blog.html">blog</a></li>
-            </ul>
+            <div id='cssmenu'>
+                <ul>
+                   <li><a href='#'>Home</a></li>
+                   <li class='active'><a href='projects/projects.html'>Projects</a>
+                      <ul>
+                         <li><a href='projects/projects.html#cloudscript'>CloudScript</a></li>
+                         <li><a href='projects/projects.html#dbc_tree'>DBC Family Tree</a></li>
+                         <li><a href='projects/projects.html#craigslist_remake'>Craigslist</a></li>
+                         <li><a href='projects/projects.html#sudoku'>Sudoku Puzzle Solver</a></li>
+                         <li><a href='projects/projects.html#happy_ball'>Happy Ball</a></li>
+                      </ul>
+                   </li>
+                   <li class='active'><a href='#'>Web Prescence</a>
+                      <ul>
+                         <li><a href='#'>LinkedIn</a></li>
+                         <li><a href='#'>Twitter</a></li>
+                         <li><a href='#'>Github</a></li>
+                      </ul>
+                   </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -42,8 +64,9 @@
         </div>
     </div>
     <div class="footer">
-        <a class="social-icons" href="https://twitter.com/stevewzimmerman"><img id="icon" src="imgs/twitter-icon.png"/></a>
-        <a class="social-icons" href="https://www.linkedin.com/in/stevewzimmerman"><img id="icon" src="imgs/linkedin-icon.png"/></a>
+        <a class="social-icons" href="https://twitter.com/stevewzimmerman" target="_blank"><img id="icon" src="imgs/twitter-icon.png"/></a>
+        <a class="social-icons" href="https://www.linkedin.com/in/stevewzimmerman" target="_blank"><img id="icon" src="imgs/linkedin-icon.png"/></a>
+        <a class="social-icons" href="https://github.com/stevez86" target="_blank"><img id="icon" src="imgs/github-icon.svg"/></a>
     </div>
 
   </body>
