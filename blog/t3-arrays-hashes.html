@@ -29,19 +29,19 @@
         <div class="mid-col">
             <h2>Hashes vs Arrays</h2>
             <p><i>Sunday, October 5th, 2014</i></p>
-            <p>This week I've been asked to discuss the differences between arrays and bases in ruby. Both arrays and hashes are very similar in that they both are used to store a "collection" or "series" of data. They can both grow and shrink in size and can hold any type of data, integers, floats, strings, etc. The difference between an array and hash is how the data is accessed. For example, arrays use a linear integer to index the data for storing or recalling a piece of data, while hashes use a "hash.""  A hash can be a string, number or whatever. The differences are best explained with examples, the following is an example for an array of pets.</p>
+            <p>This week I chose to discuss the differences between arrays and hashes in ruby. Both arrays and hashes are very similar in that they both are used to store a "collection" or "series" of data. Thanks to ruby, they can both grow and shrink in size and can hold any type of data, integers, floats, strings, etc. The difference between an array and hash is how the data is accessed. For example, arrays use a linear integer to index the data for storing or recalling a piece of data, while hashes use a "hash." A hash can be a string, symbol, number or whatever the developer wants. A hash is different from an array in that instead of a linear lookup index like an array, a hash uses the aforementioned symbol, string or number to access the data with a constant time cost. The differences are best explained with examples, the following is an example for an array of pets.</p>
 
             <p>Pets = ["cat", "dog", "fish"]</p>
 
             <p>In order to recall a specific piece of data from pets one would call Pets[n] where n represents a number, in this case, ranging from 0 to 2. Pets[0] would return "cat." Now for hashes, they are defined differently and an example with pet's could be used below where the pet of an owner could accessed.</p>
 
-            <p>Pets = {<br>
-                'John'  => "cat",<br>
-                'Jack'  => "dog",<br>
-                'Jane'  => "fish",<br>
-            }</p>
+            <p>Pets = {
+            <br>'John'  => "cat",
+            <br>'Jack'  => "dog",
+            <br>'Jane'  => "fish",
+            <br>}</p>
 
-            <p>If you wanted to access an owner's pet one could utilize the hash, in this case, 'John' used with the hash, Pets['John'] to recall the data, "cat." Hashes are better used when the data being stored is not linear or ordered. This is my explanation of hashes and arrays. Thanks for reading.</p>
+            <p>If you wanted to access an owner's pet one could utilize the hash, in this case, 'John' used with the hash, Pets['John'] to recall the data, "cat." Contray to arrays, hashes are better used when the data being stored is not linear or ordered and when there are pairs of data, like in this example, a pet and it's owner.</p>
         </div>
     </div>
     <div class="footer">
