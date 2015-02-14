@@ -217,3 +217,7 @@ h2 {
   padding-left: 10px;
   /*height: 200px;*/
 }
+
+#connect4vid {
+  display: block;
+}
