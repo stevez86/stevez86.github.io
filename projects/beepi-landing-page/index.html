@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<link rel="stylesheet" href="css/san-diego.css">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+
+
+
+<script type='text/javascript' src="js/landing.js"></script>
+<script src="js/stickUp.min.js"></script>
+
+<title>San Diego Landing Page</title>
+
+</head>
+<body>
+<header>
+    <div class="home-menu">
+        <img id="logo" src="img/logo.png">
+        <ul id="home-menu-links" class="hide-on-home-break">
+            <li><a href="https://www.beepi.com/TopFiveQuestions">Top 5 Questions</a></li>
+            <li>/<a href="https://www.beepi.com/BeepiCertified">Beepi Certified</a></li>
+            <li>/<a href="https://www.beepi.com/BackseatDriver">Backseat Driver Blog</a>/</li>
+            <li><a href="https://www.beepi.com/Sell" id="beepi-green">Sell</a></li>
+            <li>/<a href="https://www.beepi.com/Buy/" id="beepi-blue">Buy</a></li>
+            <li>/<a href="#">(888) 542-3374</a></li>
+        </ul>
+    </div>
+    <div class="splash">
+        <div class="splash-content">
+            <p class="splash-header">Rolling&nbsp;in&nbsp;to <b>San&nbsp;Diego</b></p>
+            <div class="subheader-container">
+                <p class="splash-subheader form-text">Get&nbsp;notified,&nbsp;and&nbsp;receive&nbsp;a <b>$100&nbsp;bonus</b></p>
+                <form class="form-wrapper cf">
+                    <input type="text" placeholder="email@example.com" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="stickyNavBar nav-bar-wrapper hide-on-nav-break">
+        <div id="nav-bar-id" class="nav-bar">
+            <div class="nav-item ni-notify item-selected'"><a href="#header"><p>Get notified</p></a></div>
+            <div class="nav-item ni-coverage"><a href="#nav-bar-id"><p>See coverage</p></a></div>
+            <div class="nav-item ni-inspectors"><a href="#meet"><p>Meet Inspectors</p></a></div>
+            <div class="nav-item ni-events"><a href="#meet-date"><p>Find events</p></a></div>
+            <div class="nav-item ni-love"><a href="#love"><p>Spread love</p></a></div>
+        </div>
+    </div>
+
+    <div id="location">
+        <div class="location-menubar">
+            <p class="form-text">Are we there yet?</p>
+            <form class="form-wrapper-location cf">
+                <input type="text" placeholder="Check your address or zip" required>
+                <button type="submit">Check</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="meet" class="pure-g section-container">
+        <div class="pure-u-1">
+            <h4>Meet one of San Diego's</h4>
+            <h1>Super Duper Inspectors</h1>
+        </div>
+        <div class="pure-u-md-1-4"></div>
+        <div class="pure-u-1 pure-u-md-1-4 inspector-profile">
+            <img src="img/profile.jpg">
+        </div>
+        <div class="profile-info pure-u-1 pure-u-md-1-4">
+            <h4 id="profile-name">Noe Murillo-Garcia</h4>
+            <p>San Diego, CA</p>
+            <p>UTI</p>
+            <p>Building race cars</p>
+            <p>Beepier since November 2014</p>
+            <p>"If opportunity doesn't knock, build a door!"</p>
+        </div>
+        <div class="pure-u-md-1-4"></div>
+        <div class="pure-u-1">
+            <p>Think&nbsp;you&nbsp;have&nbsp;what&nbsp;it&nbsp;takes? <b>Join&nbsp;the&nbsp;team.</b></p>
+            <button type="submit" class="meet-button pure-button pure-button-primary">Apply</button>
+        </div>
+    </div>
+
+    <div id="meet-date" class="pure-g section-container">
+        <div class="pure-u-1"><h1>Come meet us!</h1></div>
+        <div class="pure-u-md-4-24"></div>
+        <div class="pure-u-md-6-24 pure-u-1">
+            <div class="date-box">
+                <p class='cal-month'>MAR</p>
+                <p class='cal-day'>2</p>
+            </div>
+            <p class="beepi-blue">San Diego Washeroo Car Wash</p>
+            <p>Come get a free wash, and some swag to boot</p>
+        </div>
+        <div class="pure-u-md-4-24"></div>
+        <div class="pure-u-md-6-24 pure-u-1">
+            <div class="date-box">
+                <p class='cal-month'>MAR</p>
+                <p class='cal-day'>3</p>
+            </div>
+            <p class="beepi-blue">San Diego Washeroo Car Wash</p>
+            <p>Come get a free wash, and some swag to boot</p>
+        </div>
+        <div class="pure-u-md-4-24"></div>
+    </div>
+
+    <div id="love" class="pure-g section-container">
+        <div class="pure-u-1">
+            <img src="img/heart.jpg">
+            <p>Spread the Beepi love</p>
+            <a href="https://www.facebook.com/pages/Beepi/614195072029447"><img src="img/fb-icon.png"></a>
+            <a href="https://twitter.com/beepi"><img src="img/twitter-icon.png"></a>
+            <a href="https://twitter.com/beepi"><img src="img/pintrest-icon.png"></a>
+            <a href="mailto:someone@beepi.com"><img src="img/email-icon.png"></a>
+        </div>
+    </div>
+</body>
+</html>
