@@ -7,7 +7,9 @@ $(document).ready(function() {
   //initiating jQuery
   jQuery(function($) {
     $(document).ready( function() {
-      $('.stickyNavBar').stickUp();
+      $('.stickyNavBar').stickUp({
+        marginTop: 'auto'
+      });
     });
   });
 
@@ -21,7 +23,7 @@ $(document).ready(function() {
 
     var nav_height = $('.nav-bar-wrapper').height();
 
-    var location_offset = $('.nav-bar').offset().top- nav_height/2;
+    var location_offset = $('.nav-bar').offset().top - nav_height/2;
     var meet_offset = $('#meet').offset().top  - nav_height;
     var mdate_offset = $('#meet-date').offset().top  - nav_height;
     var social_offset = $('#love').offset().top  - nav_height;
